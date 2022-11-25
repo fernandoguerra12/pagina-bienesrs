@@ -129,17 +129,22 @@ img {
   border: none;
   display: block;
   text-align: center;
-  color: #ffffff;
-  font-size: 1.8rem;
   text-transform: uppercase;
+  font-size: 1.7rem;
+  font-weight: 700;
 }
 .btn__verde {
   background-color: #74b224;
   font-size: 1.7rem;
   font-weight: 700;
+  color: #ffffff;
 }
 .btn__amarillo {
   background-color: #df8716;
+  padding: 1rem 2rem;
+  color: #ffffff;
+  font-size: 1.7rem;
+  font-weight: 600;
 }
 /* ? creando el herder */
 
@@ -235,4 +240,58 @@ img {
 .end {
   margin-top: 2rem;
   flex-direction: row-reverse;
+}
+
+/* * contacto */
+
+.contacto__hero {
+  background-image: url(../img/encuentra.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacto__hero .contacto__titulo {
+  color: #ffffff;
+  width: 100%;
+}
+
+.contacto__hero .contacto__titulo h2 {
+  font-size: 3.4rem;
+  margin-bottom: 3rem;
+}
+
+.contacto__hero .contacto__titulo p {
+  font-weight: 500;
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+/* * blog y testimonial */
+.blog {
+  flex: 0 0 50%;
+  background-color: red;
+}
+
+.blog .blog__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog .blog__wrapper .blog__wrapper-img {
+  flex: 0 0 40%;
+}
+
+.blog .blog__wrapper .blog__wrapper-titulos {
+  flex: 0 0 calc(60% - 1rem);
+}
+
+.testimonial {
+  flex: 0 0 calc(50% - 1rem);
+  background-color: aqua;
 }
