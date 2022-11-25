@@ -274,24 +274,56 @@ img {
 
 /* * blog y testimonial */
 .blog {
-  flex: 0 0 50%;
-  background-color: red;
+  flex: 0 0 60%;
 }
 
 .blog .blog__wrapper {
   display: flex;
   justify-content: space-between;
+
+  margin-bottom: 2rem;
 }
 
 .blog .blog__wrapper .blog__wrapper-img {
-  flex: 0 0 40%;
+  flex-basis: 40%;
 }
 
 .blog .blog__wrapper .blog__wrapper-titulos {
-  flex: 0 0 calc(60% - 1rem);
+  flex-basis: calc(60% - 2rem);
+  text-align: left;
+  position: relative;
 }
 
+.blog .blog__wrapper .blog__wrapper-titulos a {
+  color: #0e0d0d;
+}
+
+.blog .blog__wrapper .blog__wrapper-titulos h3 {
+  font-size: 2.8rem;
+  line-height: 1.3;
+  position: relative;
+}
+
+.blog .blog__wrapper .blog__wrapper-titulos h3::after {
+  content: "";
+  display: block;
+  background-color: #74b224;
+  width: 10rem;
+  height: 0.4rem;
+}
+
+.blog .blog__wrapper .blog__wrapper-titulos p {
+  font-size: 1.7rem;
+  margin: 2rem 0;
+  line-height: 1.7;
+}
+
+.blog .blog__wrapper .blog__wrapper-titulos :last-of-type {
+  margin-bottom: 0;
+}
+.blog .blog__wrapper .blog__wrapper-titulos p span {
+  color: var(--color-orange);
+}
 .testimonial {
-  flex: 0 0 calc(50% - 1rem);
-  background-color: aqua;
+  flex: 0 0 calc(40% - 1rem);
 }
