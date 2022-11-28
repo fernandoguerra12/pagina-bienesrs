@@ -146,6 +146,12 @@ img {
   font-size: 1.7rem;
   font-weight: 600;
 }
+
+.content {
+  max-width: 80rem;
+  width: 100%;
+  margin: 0 auto;
+}
 /* ? creando el herder */
 
 .header__site.inicio {
@@ -159,7 +165,7 @@ img {
 
 .inicio {
   background-color: #323232;
-  padding-top: 3rem;
+  padding: 3rem 0;
 }
 
 .header-separcion {
@@ -424,4 +430,54 @@ img {
 .nosotro__titulo p {
   margin: 2rem 0;
   font-size: 1.8rem;
+}
+
+/** anuncio pagina de ver propiedad */
+.anuncio .anuncio_img {
+  background-image: url(../img/destacada.jpg);
+  height: 80rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 3rem 0 6rem;
+}
+
+.anuncio .anuncio__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.anuncio .anuncio__row li {
+  display: flex;
+  margin-right: 4rem;
+  justify-content: space-between;
+}
+
+.anuncio .anuncio__row li:last-of-type {
+  margin-right: 0;
+}
+
+.anuncio .anuncio__row li p {
+  margin-left: 2rem;
+}
+
+.anuncio .anuncio__text {
+  margin-top: 4rem;
+  text-align: left;
+}
+
+.anuncio .anuncio__text p {
+  padding: 3rem 0;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.anuncio .anuncio__text p:last-of-type {
+  padding: 0;
+}
+
+/* * blogs */
+
+.blog__titulo h1 {
+  margin-bottom: 4rem;
 }
