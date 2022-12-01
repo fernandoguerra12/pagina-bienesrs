@@ -71,6 +71,14 @@ img {
   max-width: 100%;
 }
 
+label {
+  display: block;
+}
+
+input {
+  display: block;
+}
+
 /* * estilo globales y reutilisable */
 
 .container {
@@ -480,4 +488,93 @@ img {
 
 .blog__titulo h1 {
   margin-bottom: 4rem;
+}
+
+/*
+*Contacto 
+ */
+
+.contect__img {
+  background-image: url(../img/destacada3.jpg);
+  height: 80rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contacto__title {
+  margin: 3rem 0;
+}
+
+.contacto .contacto__form {
+  width: 100%;
+}
+
+.contacto .contacto__form .contacto__grup {
+  margin: 1rem 0;
+}
+.contacto .contacto__form .contacto__grup:first-child {
+  margin: 0;
+}
+
+.contacto .contacto__form fieldset {
+  border: solid 1px #5e5d5d;
+  margin-bottom: 2rem;
+}
+
+.contacto .contacto__form fieldset legend {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.contacto .contacto__form input[type="text"],
+.contacto .contacto__form input[type="tel"],
+.contacto .contacto__form input[type="email"],
+.contacto .contacto__form input[type="number"],
+.contacto .contacto__form input[type="date"],
+.contacto .contacto__form input[type="time"] {
+  width: 100%;
+  padding: 0.7rem 0;
+  background-color: #e1e1e1;
+  border: none;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.contacto .contacto__form textarea {
+  width: 100%;
+  padding: 0.7rem 0;
+  background-color: #e1e1e1;
+  border: none;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.contacto .contacto__form select {
+  width: 100%;
+  padding: 0.7rem 0;
+  background-color: #e1e1e1;
+  border: none;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.contacto .contacto__form input[type="button"] {
+  border: none;
+  background-color: #74b224;
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 1rem 2.5rem;
+  text-transform: uppercase;
+  margin-top: 4rem;
 }

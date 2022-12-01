@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bienes Raices</title>
+    <!-- normalize -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- agragando estilo css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="inicio">
+      <div class="container header-separcion">
+        <div class="row justify-content-between justify-content-center">
+          <div class="logo">
+            <a href="index.html"
+              ><img src="./img/logo.svg" alt="logo de site"
+            /></a>
+          </div>
+          <nav class="menu">
+            <ul>
+              <li><a href="nosotro.html">Nosotro</a></li>
+              <li><a href="anuncios.html">Anuncios</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </nav>
+          <!-- *fila para contener el menu -->
+        </div>
+      </div>
+    </header>
+    <!-- !finalisando el diseño del header -->
+    <!-- !section de contacto stars -->
+    <section class="section contacto">
+      <h1 class="txt__centrado fw-300">Contacto</h1>
+      <div class="contect__img"></div>
+      <div class="container">
+        <div class="content">
+          <h2 class="txt__centrado fw-300 contacto__title">
+            Llenar el Formulario de Contacto
+          </h2>
+          <form action="" class="contacto__form">
+            <fieldset>
+              <legend>Informe Personal</legend>
+              <div class="contacto__grup">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Nombre" />
+              </div>
+              <div class="contacto__grup">
+                <label for="email">E-mail:</label>
+                <input
+                  type="email"
+                  name=""
+                  id="email"
+                  placeholder="Correo Electronico"
+                />
+              </div>
+              <div class="contacto__grup">
+                <label for="tel">Telefono:</label>
+                <input type="tel" name="" id="tel" placeholder="Tu Telefono" />
+              </div>
+              <div class="contacto__grup">
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="" id="mensaje" cols="10" rows="10"></textarea>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>Informacion sobre la Propiedad</legend>
+
+              <p>Vende o Compra</p>
+              <select id="compra">
+                <option disabled selected>--Seleccione--</option>
+                <option value="vende">Vende</option>
+                <option value="compra">Compra</option>
+              </select>
+
+              <div class="contacto__grup">
+                <label for="presupuesto">Presupuesto</label>
+                <input
+                  type="number"
+                  name=""
+                  id="presupuesto"
+                  min="0"
+                  max="999999999999999999"
+                />
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>Contacto</legend>
+
+              <p>como desea ser contectado</p>
+              <div class="contacto__grup">
+                <p>Telefono</p>
+                <input type="radio" name="" id="telefono" />
+              </div>
+              <div class="contacto__grup">
+                <p>Correo</p>
+                <input type="radio" name="" id="Correo" />
+              </div>
+              <div class="contacto__grup">
+                <label for="fecha">Fecha</label>
+                <input type="date" name="" id="fecha" />
+              </div>
+              <div class="contacto__grup">
+                <label for="hora">Hora</label>
+                <input type="time" name="" id="hora" />
+              </div>
+              <input type="button" value="Enviar" />
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- !section de contacto ends -->
+
+    <!-- !footer stars -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <nav class="menu">
+            <ul>
+              <li><a href="nosotro.html">Nosotro</a></li>
+              <li><a href="anuncios.html">Anuncios</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </nav>
+          <p>Todo los Derecho Reservardos &copy;</p>
+        </div>
+      </div>
+    </footer>
+    <!-- !footer ends -->
+  </body>
+</html>
